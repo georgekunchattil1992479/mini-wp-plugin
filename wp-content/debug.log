@@ -1,0 +1,25 @@
+[08-Apr-2021 18:21:12 UTC] PHP Fatal error:  Cannot redeclare myplugin_action_hook_example() (previously declared in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-content\mu-plugins\simple-example-plugin.php:22) in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-content\mu-plugins\simple-example-plugin.php on line 27
+[08-Apr-2021 18:23:17 UTC] PHP Fatal error:  Cannot redeclare myplugin_action_hook_example() (previously declared in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-content\mu-plugins\simple-example-plugin.php:22) in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-content\mu-plugins\simple-example-plugin.php on line 27
+[08-Apr-2021 18:23:25 UTC] PHP Fatal error:  Cannot redeclare myplugin_action_hook_example() (previously declared in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-content\mu-plugins\simple-example-plugin.php:22) in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-content\mu-plugins\simple-example-plugin.php on line 27
+[08-Apr-2021 18:53:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-includes\class-wp-hook.php on line 292
+[08-Apr-2021 18:53:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'WP_Block_Supports' not found in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-includes\class-wp-hook.php on line 292
+[08-Apr-2021 18:53:19 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Application_Passwords' not found in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-admin\includes\upgrade.php:2286
+Stack trace:
+#0 D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-admin\includes\upgrade.php(878): upgrade_560()
+#1 D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-admin\includes\upgrade.php(700): upgrade_all()
+#2 D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-admin\upgrade.php(146): wp_upgrade()
+#3 {main}
+  thrown in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-admin\includes\upgrade.php on line 2286
+[08-Apr-2021 18:53:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-includes\class-wp-hook.php on line 292
+[08-Apr-2021 18:53:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'WP_Block_Supports' not found in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-includes\class-wp-hook.php on line 292
+[08-Apr-2021 18:53:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-includes\class-wp-hook.php on line 292
+[08-Apr-2021 18:53:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'WP_Block_Supports' not found in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-includes\class-wp-hook.php on line 292
+[08-Apr-2021 18:53:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-includes\class-wp-hook.php on line 292
+[08-Apr-2021 18:53:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'WP_Block_Supports' not found in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-includes\class-wp-hook.php on line 292
+[08-Apr-2021 18:53:27 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Application_Passwords' not found in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-admin\includes\upgrade.php:2286
+Stack trace:
+#0 D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-admin\includes\upgrade.php(878): upgrade_560()
+#1 D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-admin\includes\upgrade.php(700): upgrade_all()
+#2 D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-admin\upgrade.php(146): wp_upgrade()
+#3 {main}
+  thrown in D:\Installed\xampp server\htdocs\mini-wp-plugin\wp-admin\includes\upgrade.php on line 2286

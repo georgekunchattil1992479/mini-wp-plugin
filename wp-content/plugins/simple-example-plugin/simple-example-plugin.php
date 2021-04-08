@@ -16,3 +16,17 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License with this program. If not, visit: https://www.gnu.org/licenses
 
 */
+
+//action hook
+function myplugin_action_hook_example() {
+	wp_mail('email@example.com', 'Subject', 'Message...');
+}
+add_action('init', 'myplugin_action_hook_example');
+
+//filter hook
+function myplugin_action_hook_example($content) {
+	$content = $content . '<p>Custom content..</p>';
+
+	return $content;
+}
+add_filter('the_content', 'myplugin_action_hook_example');

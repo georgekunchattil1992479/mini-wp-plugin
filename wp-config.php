@@ -78,6 +78,7 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 
+
 //enable debug
 define( 'WP_DEBUG', true );
 
@@ -89,6 +90,7 @@ define('WP_DEBUG_DISPLAY', false);
 
 // save queries
 define('SAVEQUERIES', false);
+
 
 /* That's all, stop editing! Happy publishing. */
 
