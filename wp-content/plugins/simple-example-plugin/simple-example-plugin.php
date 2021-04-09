@@ -24,9 +24,9 @@ function myplugin_action_hook_example() {
 add_action('init', 'myplugin_action_hook_example');
 
 //filter hook
-function myplugin_action_hook_example($content) {
+function myplugin_filter_hook_example($content) {
 	$content = $content . '<p>Custom content..</p>';
 
 	return $content;
 }
-add_filter('the_content', 'myplugin_action_hook_example');
+add_filter('the_content', 'myplugin_filter_hook_example');
